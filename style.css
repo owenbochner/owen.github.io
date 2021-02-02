@@ -3,9 +3,48 @@ body {
   background-size: cover;
 }
 
+
 h1 {
 	text-align: center;
   	color: #39FF14;
   	font-size: 50px;
-  	font-style: Cascadia Code;
+  	font-family: "Lucida Console","Courier New", monospace;
+  	border-style: hidden, hidden, hidden, dotted;
+}
+
+h2 {
+	color: #EC80FF;
+	font-size: 30px;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#clever {
+	color: #EC80FF;
+	text-align: center;
+	font-size: 20px;
+	font-family: "Lucida Console", "Courirer New", monospace;
+
+}
+#label {
+	text-align: center;
+	font-size: 10px;
+	font-family: "Lucida Console", "Courirer New", monospace;
+}
+
+#table {
+	color: #EC80FF;
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-align: left-center;
+	border-collapse: collapse;
+	width: 25%;
+}
+#table, #table{
+	border: 1px solid #dddddd;
+  	text-align: left;
+  	padding: 8px;
+}
+button {
+	align-self: center;
+	align-content: center;
+}
 }
